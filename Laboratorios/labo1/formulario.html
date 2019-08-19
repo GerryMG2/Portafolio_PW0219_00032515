@@ -1,51 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>formulario</title>
 </head>
+
 <body>
     <h1>Fake E-mail sign up</h1>
 
-    <form action="Personalinformation">
-        <label for="firstname">Name</label>
-        
-        <input type="text" name="firstname" placeholder="Carlos">
-        <input type="text" name="secondname" placeholder="algo">
-        <br>
-        <label for="lastname">Apellido</label>
-        
-        <input type="text" name="lastname" placeholder="Martinez">
-        <br>
-        <label for="birthdate">Birthdate</label>
-        
-        <input type="birthdate" name="birthdate">
-        <br>
-        <label for="gender">Gender</label>
-        <input type="radio" name="gender" placeholder="F">
-        <input type="radio" name="gender" placeholder="M">
+    <form action="#">
+        <fieldset>
+            <legend>Personal information</legend>
 
-        <label for="other">Other</label>
-        <input type="text" name="other">
+            <label for="firstname">Name</label>
 
+            <input type="text" name="firstname" placeholder="Carlos">
+            <input type="text" name="secondname" placeholder="algo">
+            <br>
+            <label for="lastname">Apellido</label>
+
+            <input type="text" name="lastname" placeholder="Martinez">
+            <br>
+            <label for="birthdate">Birthdate</label>
+
+            <input type="date" name="birthdate">
+            <br>
+            <label for="gender">Gender:</label>
+            M<input type="radio" name="gender" >
+            F<input type="radio" name="gender">
+
+            <label for="other">Other</label>
+            <input type="text" name="other">
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                Sing up information
+            </legend>
+
+            <br>
+            <label for="email">Email</label>
+            <input type="email" name="email">
+            <br>
+            <label for="password">Password</label>
+            <input type="password" name="password">
+            <br>
+            <label for="password">Password verify</label>
+            <input type="password" name="password">
+        </fieldset>
+        <input type="button" value="submit" name="submit" placeholder="submit" title="submit">
+        <input type="button" value="reset fields" name="Reset Fields" placeholder="reset fields" title="reset filds">
 
     </form>
-
-    <form action="/sign up information">
-        <label for="email">Email</label>
-        <input type="email" name="email">
-        <label for="password">Password</label>
-        <input type="password" name="password">
-        <label for="password">Password verify</label>
-        <input type="password" name="password">
-        
-
-    </form>
-
-    <input type="button" name="submit" placeholder="submit" title="submit">
-    <input type="button" name="Reset Fields" placeholder="reset fields" title="reset filds">
-    
 </body>
 </html>
