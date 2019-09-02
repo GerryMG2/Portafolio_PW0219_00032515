@@ -1,0 +1,34 @@
+.container{
+    display: grid;
+    justify-content: center;
+    grid-template: 100px 100px 100px 100px/100px 100px 100px 100px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.span4{
+    grid-column: span 4;
+}
+
+.span2{
+    grid-column: span 2;
+}
+
+.span2-fila{
+    grid-row: span 2;
+}
+
+.span4-fila{
+    grid-row: span 4;
+}

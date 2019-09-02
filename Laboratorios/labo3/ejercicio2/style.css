@@ -1,0 +1,97 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+
+body{
+    height: 100vh;
+    overflow: hidde;
+    background-image: url('https://letsup.com.br/img/bg.jpg');
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+nav > a {
+    margin: 0 10px;
+}
+
+.btn{
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.violeta{
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.azul{
+    color: white;
+    background-color: blue;
+}
+
+.portada{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    
+}
+
+.titulo{
+    width: 200px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.titulo > h1{
+    border-bottom: 1px solid white;
+}
+
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container > img {
+    width: 30px;
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+
+
+ 
+
+
+
+
+
