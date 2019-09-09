@@ -1,0 +1,34 @@
+@mixin flexEnd-row(){
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+
+nav{
+    @include flexEnd-row();
+    height: 5vh;
+    padding: 10px;
+
+    a{
+        margin: 0 10px;
+    }
+}
+
+.btn{
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.violeta{
+    background-color: blueviolet;
+    color: white;
+
+}
+
+.azul{
+    color: white;
+    background-color: blue;
+}

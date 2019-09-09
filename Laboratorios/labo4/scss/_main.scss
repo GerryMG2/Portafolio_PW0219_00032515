@@ -1,0 +1,44 @@
+@mixin flexAllCenter-column(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin flexWrapCenter-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin squareMeasure($_xy){
+    width: $_xy;
+    height: $_xy;
+}
+
+.portada{
+    @include flexAllCenter-column();
+    margin: auto 0;
+    height: 90vh;
+}
+
+
+.titulo{
+    width: 200px;
+    text-align: center;
+    color: antiquewhite;
+    h1{
+        border-bottom: 1px solid white;
+    }
+}
+
+.logo-container{
+    @include flexWrapCenter-row();
+    max-width: 250px;
+    img{
+        @include squareMeasure(30px);
+
+    }
+}

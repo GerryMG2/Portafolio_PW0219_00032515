@@ -1,0 +1,13 @@
+@mixin flexRowSpaceBet{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer{
+    @include flexRowSpaceBet();
+    padding: 10px;
+    height: 5vh;
+}
+
+
