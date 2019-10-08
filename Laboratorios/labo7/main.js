@@ -24,7 +24,7 @@ let addStudent = (carnet,horario, tarde) => {
 }
 btn.addEventListener("click", () =>{
     let texto_carnet = carnet.value;
-    let horario_texto = horario.options[horario.selected];
+    let horario_texto = horario.value
     let late = check.checked;
     console.log(texto_carnet)
     if(carnet_validate.test(texto_carnet)){
